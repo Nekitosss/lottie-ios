@@ -10,7 +10,7 @@ import CoreText
 import QuartzCore
 import CoreGraphics
 /// Needed for NSMutableParagraphStyle...
-#if os(OSX)
+#if os(macOS)
 import AppKit
 #else
 import UIKit
